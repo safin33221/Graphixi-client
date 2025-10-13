@@ -84,7 +84,7 @@ export default function Navbar() {
               <Logo />
             </a>
             {/* Navigation menu */}
-            <NavigationMenu className="max-md:hidden">
+            <NavigationMenu className="max-md:hidden ">
               <NavigationMenuList className="gap-2">
                 {navigationLinks.map((link, index) => (
                   <NavigationMenuItem key={index}>
